@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_servicios_servicios",
+  "info": {
+    "displayName": "Servicio",
+    "icon": "hammer"
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

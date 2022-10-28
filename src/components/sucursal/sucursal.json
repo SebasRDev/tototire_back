@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sucursal_sucursals",
+  "info": {
+    "displayName": "Sucursal",
+    "icon": "store-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Direccion": {
+      "type": "text"
+    },
+    "Telefono": {
+      "type": "string"
+    }
+  }
+}

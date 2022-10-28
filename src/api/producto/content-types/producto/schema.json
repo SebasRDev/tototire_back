@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productos",
+  "info": {
+    "singularName": "producto",
+    "pluralName": "productos",
+    "displayName": "Producto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MARCA": {
+      "type": "string"
+    },
+    "DISENO": {
+      "type": "string"
+    },
+    "RIN": {
+      "type": "integer"
+    },
+    "ANCHO": {
+      "type": "integer"
+    },
+    "PERFIL": {
+      "type": "integer"
+    },
+    "VEL_MAX": {
+      "type": "string"
+    },
+    "CARGA": {
+      "type": "string"
+    },
+    "USO": {
+      "type": "string"
+    },
+    "IND_VEL": {
+      "type": "string"
+    },
+    "CANT": {
+      "type": "integer"
+    },
+    "COD_REF": {
+      "type": "string"
+    },
+    "IMAGEN": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "PRECIO": {
+      "type": "string"
+    }
+  }
+}

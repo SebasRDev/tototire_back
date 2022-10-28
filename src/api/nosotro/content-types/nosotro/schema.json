@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "nosotros",
+  "info": {
+    "singularName": "nosotro",
+    "pluralName": "nosotros",
+    "displayName": "Nosotros",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nosotros": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nosotros.nosotros"
+    },
+    "TituloPagina": {
+      "type": "string"
+    }
+  }
+}

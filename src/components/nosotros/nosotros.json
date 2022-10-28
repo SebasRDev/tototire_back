@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_nosotros_nosotros",
+  "info": {
+    "displayName": "Nosotros",
+    "icon": "warehouse"
+  },
+  "options": {},
+  "attributes": {
+    "Imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Titulo": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Orientacion": {
+      "type": "enumeration",
+      "enum": [
+        "Vertical",
+        "Horizontal"
+      ]
+    }
+  }
+}

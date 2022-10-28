@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "contactos",
+  "info": {
+    "singularName": "contacto",
+    "pluralName": "contactos",
+    "displayName": "Contacto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Contacto": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sucursal.sucursal"
+    }
+  }
+}
