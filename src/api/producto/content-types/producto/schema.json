@@ -55,6 +55,10 @@
     },
     "PRECIO": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "COD_REF"
     }
   }
 }
