@@ -59,6 +59,12 @@
     "slug": {
       "type": "uid",
       "targetField": "COD_REF"
+    },
+    "categoria": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::categoria.categoria",
+      "inversedBy": "productos"
     }
   }
 }

@@ -1,26 +1,37 @@
 {
   "collectionName": "components_servicios_servicios",
   "info": {
-    "displayName": "Servicio",
-    "icon": "hammer"
+    "displayName": "servicio",
+    "icon": "hammer",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Titulo": {
       "type": "string"
     },
-    "Descripcion": {
-      "type": "text"
-    },
     "Imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Descripcion": {
+      "type": "richtext"
+    },
+    "Posicion": {
+      "type": "enumeration",
+      "enum": [
+        "arriba-derecha",
+        "arriba-izquierda",
+        "abajo-derecha",
+        "abajo-izquierda"
+      ]
     }
   }
 }
